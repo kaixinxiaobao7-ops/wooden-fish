@@ -2,6 +2,7 @@ node_modules/
 dist/
 .npm-cache/
 .tmp/
+.tools/
 .DS_Store
 *.local
 .vite/

@@ -2,6 +2,8 @@
 
 一个安静、好看、能真正敲出声音的网页木鱼。轻触木鱼，功德 +1；也可以交给自动敲击，去泡一杯茶。
 
+**在线体验**：<https://kaixinxiaobao7-ops.github.io/wooden-fish/>
+
 纯前端实现：无后端、无账号、无追踪，所有功德只存在你自己的浏览器里。
 
 <p align="center">
@@ -47,7 +49,7 @@ npm run preview   # 预览生产构建
 2. 进入仓库 **Settings → Pages**，将 **Source** 设为 **GitHub Actions**。
 3. 之后每次推送到 `main`，工作流会自动构建并发布；也可以手动触发 **Deploy to GitHub Pages**。
 
-访问地址形如 `https://<用户名>.github.io/<仓库名>/`。Vite 使用相对路径构建（`base: './'`），因此仓库名、自定义域名和子路径部署都无需改配置。
+本项目当前部署在 <https://kaixinxiaobao7-ops.github.io/wooden-fish/>。Vite 使用相对路径构建（`base: './'`），因此仓库名、自定义域名和子路径部署都无需改配置。
 
 ## 技术栈
 
