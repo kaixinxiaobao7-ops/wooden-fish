@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.npm-cache/
+.tmp/
+.DS_Store
+*.local
+.vite/

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="电子木鱼">
+  <defs>
+    <radialGradient id="body" cx="34%" cy="26%" r="80%">
+      <stop offset="0%" stop-color="#e9bb84"/>
+      <stop offset="48%" stop-color="#b87a40"/>
+      <stop offset="100%" stop-color="#6b3a16"/>
+    </radialGradient>
+    <radialGradient id="mat" cx="50%" cy="18%" r="85%">
+      <stop offset="0%" stop-color="#b3493a"/>
+      <stop offset="100%" stop-color="#5b1d16"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#f3ebdb"/>
+  <ellipse cx="32" cy="53" rx="22" ry="5" fill="#7e2c23" opacity="0.5"/>
+  <ellipse cx="32" cy="51.5" rx="21" ry="4.2" fill="url(#mat)"/>
+  <path d="M32 14c12 0 21 8 21.5 19.5C54 45 46 54 32.5 54.5 19 55 10.5 47 10 35.5 9.5 23 20 14 32 14Z" fill="url(#body)" stroke="#3a1c08" stroke-width="1.4"/>
+  <path d="M23 24c4-3 9-4.5 14-4.5" fill="none" stroke="#ffe4b5" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <path d="M17 36c5 5 13 7 20 4 3-1 6-3 8-5-5 2-12 2-17 1-4-1-8-3-11-5v5Z" fill="#4f2810" stroke="#3a1c08" stroke-width="1"/>
+  <circle cx="42" cy="29" r="3.2" fill="#3a1c08" opacity="0.8"/>
+  <circle cx="41" cy="28" r="1" fill="#ffe4b5" opacity="0.6"/>
+  <path d="M47 21c6-3.5 9-8 8.5-12.5-4 2.5-8 4-12 5 2 2 3 4.5 3.5 7.5Z" fill="#8a4f22" stroke="#3a1c08" stroke-width="1"/>
+  <circle cx="32" cy="18" r="1.4" fill="#d8ab63"/>
+</svg>

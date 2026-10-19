@@ -1,0 +1,27 @@
+{
+  "name": "电子木鱼 · 一念一功德",
+  "short_name": "电子木鱼",
+  "description": "轻触木鱼，功德 +1。禅意网页小木鱼，支持自动敲击、七日修行统计与木鱼皮肤。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3ebdb",
+  "theme_color": "#f3ebdb",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

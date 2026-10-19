@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="电子木鱼 · 一念一功德。轻触木鱼，听见一声清响，功德 +1。支持自动敲击、七日修行统计与木鱼皮肤。" />
+    <meta name="theme-color" content="#f3ebdb" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="电子木鱼" />
+    <meta property="og:title" content="电子木鱼 · 一念一功德" />
+    <meta property="og:description" content="轻触木鱼，功德 +1。禅意网页小木鱼，可自动敲击。" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>电子木鱼 · 一念一功德</title>
+    <script>
+      (() => {
+        try {
+          const raw = localStorage.getItem('wooden-fish.v1');
+          const saved = raw ? JSON.parse(raw).settings?.theme : null;
+          const dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch {
+          /* first visit */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
